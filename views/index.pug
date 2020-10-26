@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Harshit dance academy
+    style
+      include ../public/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/public/img/1.png")
+          | HDA
+        li #[a(href='/') HOME]
+        li #[a(href='/') ABOUT]
+        li #[a(href='/') SERVICE]
+        li #[a(href='/') CLASS-INFO]
+        li #[a(href='/') CONTACT-US]
+
+
+    section#introsection
+        div welcome to dance academy
+        div.small Eat Sleep Dance Repeat
+
+    section#Missionsection
+        h2 our mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/public/img/2.png")
+            div.card-content
+              p this is the best dance academy
+
+          
+        div.card 
+          h3 dance the way you like
+          div.card-box
+            div.card-img
+              img(src="/public/img/3.png")
+            div.card-content
+              p do you want to join our academy
+
+        div.card 
+          h3 expert
+          div.card-box
+            div.card-img
+              img(src="/public/img/4.png")
+            div.card-content
+              p check reviews our dance academy
+
+    section#sponsorsection
+        h3 our sponsors
+        div#sponsors 
+          img(src="/public/img/logo1.png",alt="sponsor image",class="spimage")
+          img(src="/public/img/logo2.png",alt="sponsor image",class="spimage")
+          img(src="/public/img/logo3.png",alt="sponsor image",class="spimage")
+          img(src="/public/img/logo4.png",alt="sponsor image",class="spimage")
+
+    footer#footer
+        | Copyright © 2020 Harshitdanceacademy.com | All rights reserved
+    script
+      include ../public/index.js 

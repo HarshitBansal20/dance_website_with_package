@@ -1,0 +1,22 @@
+//- layout.pug
+html
+  head
+    title Harshit dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/public/img/1.png")
+          | HDA
+        li #[a(href='/') HOME]
+        li #[a(href='/') ABOUT]
+        li #[a(href='/') SERVICE]
+        li #[a(href='/') CLASS-INFO] 
+        li #[a(href='/contact') CONTACT-US]
+    
+    block content
+        |   this is contact
+    footer#footer
+        | Copyright © 2020 Harshitdanceacademy.com | All rights reserved
